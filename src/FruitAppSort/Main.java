@@ -17,6 +17,14 @@ public class Main {
 		Fruit s2 = new Fruit(102,"Orange",1500);
 		fl.add(s2);
 		fl.add(new Fruit(103,"Kiwi",2000));
+		fl.add(new Fruit(104,"Tomato",2000));
+		fl.add(new Fruit(105,"Watermelon",5000));
+		fl.add(new Fruit(106,"Blueberry",2500));
+		fl.add(new Fruit(107,"Strawberry",3000));
+		fl.add(new Fruit(108,"Dragonfruit",3500));
+		fl.add(new Fruit(109,"Pineapple",6500));
+		fl.add(new Fruit(110,"Peach",3000));
+		
 		
 		Collections.sort(fl, new FruitComparator());
 		for(Fruit s : fl) {

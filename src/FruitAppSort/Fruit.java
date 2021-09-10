@@ -19,7 +19,7 @@ public class Fruit implements Comparable<Fruit>{
 		return 0;
 	}
 	
-	class FruitComparator implements Comparator<Fruit>{
+	public static class FruitComparator implements Comparator<Fruit>{
 
 		@Override
 		public int compare(Fruit o1, Fruit o2) {
@@ -27,7 +27,7 @@ public class Fruit implements Comparable<Fruit>{
 		}
 	}
 	
-	class FruitComparatorDesc implements Comparator<Fruit>{
+	public static class FruitComparatorDesc implements Comparator<Fruit>{
 
 		@Override
 		public int compare(Fruit o1, Fruit o2) {
